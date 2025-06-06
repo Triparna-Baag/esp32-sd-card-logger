@@ -3,7 +3,7 @@ A beginner-friendly ESP32 project that logs a simple message to a microSD card v
 
 ---
 
-## 🔧 What It Does
+##  What It Does
 
 - Initializes a microSD card using the SD library
 - Writes a test message to a file named `test.txt`
