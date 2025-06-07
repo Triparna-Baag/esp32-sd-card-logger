@@ -26,7 +26,7 @@ SD card module communicates with the ESP32 via the SPI interface. Here's a typic
       SCK          <-->   GPIO18  ;
       CS (SS)	 <-->   GPIO5 .
 
-Ensure that your SD card module is compatible with 3.3V logic levels. Some modules include onboard voltage regulators and level shifters, allowing them to interface safely with the ESP32's 3.3V logic
+Ensure that SD card module is compatible with 3.3V logic levels. As some modules include onboard voltage regulators and level shifters, allowing them to interface safely with the ESP32's 3.3V logic.
 
 ------
  ### Wiring Diagram
