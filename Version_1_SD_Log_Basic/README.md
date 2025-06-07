@@ -18,7 +18,7 @@ A beginner-friendly ESP32 project that logs a simple message to a microSD card v
 ##🔌 Wiring the SD Card Module to ESP32
 SD card module communicates with the ESP32 via the SPI interface. Here's a typical wiring configuration:
 
-SD Card Module Pin <--> 	ESP32 Pin 
+(SD Card Module Pin <--> 	ESP32 Pin )
       VCC	       <-->       5V ;
       GND          <-->  	GND ;
       MISO         <--> 	GPIO19 ;
