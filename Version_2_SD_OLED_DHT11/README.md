@@ -41,16 +41,12 @@ It logs real-time temperature and humidity from a **DHT11 sensor** to a **microS
 
 
 ##  Wiring Diagram
---
-DHT11 :
+- DHT11 :
    Connect the DATA pin of DHT11 sensor to GPIO 14 of ESP32(as in your code); GND pin of DHT to GND of ESP32 ; VCC pin of DHT11 to Vin of ESP32.
--- 
-OLED :
+- OLED :
    Connect Vcc pin of OLED to 3.3V of ESP32; Gnd of OLED to GND of esp32 ; SDA pin of OLED to GPIO21 of ESP32; SCL pin of OLED to GPIO22 of ESP32.
---
-SD CARD Module:
+-SD CARD Module:
    Connect VCC pin of sd_card to Vin of esp32;  Gnd of sd_card to GND of esp32 ; CS (sd card) to GPIO5(esp32); MOSI(sd card) to GPIO23; MISO(sd card) to GPIO19; SCK to GPIO18(esp32).
-
 
 Important Notes:
 Use 3.3V for OLED display , 5V for  SD card module and DHT11 .
