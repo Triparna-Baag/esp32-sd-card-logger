@@ -1,5 +1,5 @@
 # esp32-sd-card-logger
-Beginner project: ESP32 logging message to SD card.
+Mini project: ESP32 logging message to SD card.
 
 This repository contains multiple versions of ESP32-based data loggers:
 
