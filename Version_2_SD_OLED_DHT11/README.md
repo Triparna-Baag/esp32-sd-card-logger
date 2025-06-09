@@ -47,17 +47,11 @@ It logs real-time temperature and humidity from a **DHT11 sensor** to a **microS
    Connect Vcc pin of OLED to 3.3V of ESP32; Gnd of OLED to GND of esp32 ; SDA pin of OLED to GPIO21 of ESP32; SCL pin of OLED to GPIO22 of ESP32.
 -SD CARD Module:
    Connect VCC pin of sd_card to Vin of esp32;  Gnd of sd_card to GND of esp32 ; CS (sd card) to GPIO5(esp32); MOSI(sd card) to GPIO23; MISO(sd card) to GPIO19; SCK to GPIO18(esp32).
-
-Important Notes:
+(Important Notes:
 Use 3.3V for OLED display , 5V for  SD card module and DHT11 .
-Some SD card modules have onboard voltage regulators and level shifters; check your module specs before connecting to 3.3V or 5V.
+Some SD card modules have onboard voltage regulators and level shifters; check your module specs before connecting to 3.3V or 5V.)
 ---
 
-
-## Flowchart
-![Flowchart](flowchart.png)
-
----
 
 ## 🧾 Sample Output
 
