@@ -3,8 +3,7 @@
 This version logs temperature and humidity from DHT11 to SD card, displays it on OLED, and publishes it to an MQTT broker.
 This code:
 -Publishes (DHT11 data) temperature and humidity to a topic (esp32/dht11/data)
--Subscribe to a control topic (e.g. esp32/dht11/control)→ to receive commands like "led_on", "led_off" (or any custom control)
-
+-Subscribe to a control topic (e.g. esp32/dht11/control)
 
 ### Features:
 - Logs data to SD card
