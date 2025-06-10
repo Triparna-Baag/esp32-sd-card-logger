@@ -5,5 +5,5 @@ This repository contains multiple versions of ESP32-based data loggers:
 
 - **Version 1:** Basic SD card logger
 - **Version 2:** SD card logger + OLED + DHT11 sensor
-- **Version 3:** MQTT (IoT enabled) + SD card logger + OLED + DHT11 sensor
+- **Version 3:** MQTT communication protocol(IoT enabled) + SD card logger + OLED + DHT11 sensor
 
