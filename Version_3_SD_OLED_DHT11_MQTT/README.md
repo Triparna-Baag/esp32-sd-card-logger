@@ -32,7 +32,7 @@ Tested with `broker.hivemq.com` (port: 1883)
 -PubSubClient
 -SD, SPI, Wire
 ### View Live Data on a Dashboard
-    You can monitor MQTT messages using: Eclipse WebSocket Live MQTT Dashboard.This uses WebSocket to subscribe to topics on public brokers.
+   Eclipse WebSocket Live MQTT Dashboard.This uses WebSocket to subscribe to topics on public brokers.
  ---Steps:
          Open: https://www.hivemq.com/demos/websocket-client/
 ---Set parameters:
